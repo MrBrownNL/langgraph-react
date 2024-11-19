@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langgraph-react"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.7"
+langchain-openai = "^0.2.9"
+langchainhub = "^0.1.21"
+isort = "^5.13.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.7"
+langgraph = "^0.2.52"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
